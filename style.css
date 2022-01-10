@@ -290,7 +290,36 @@ flex-wrap: wrap;
   .flex-row { 
       display: flex; 
   }
+
+  .step { 
+    margin: 50px auto; 
+    padding-bottom: 50px; 
+    width: 80%;
+    border-bottom: 1px solid #39a6b2; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: space-between; 
+  }
+  .step h3 { 
+    flex: 1 30% ; 
+  }
+
+   .step-info { 
+     flex: 2 70%;
+     display: flex; 
+     flex-wrap: wrap; 
+     align-items: center; 
+   }
   
-
-
+   .step-img { 
+     flex: 1 12%; 
+     margin-right: 20px;
+   }
+.step-text { 
+  flex: 12;
+}
+.step-img img { 
+  max-width: 100%; 
+}
 
